@@ -1,0 +1,59 @@
+/* element-ui 增加样式类 */
+.el-form {
+  &.colon {
+    .el-form-item__label:after {
+      content: "：";
+      display: inline;
+    }
+  }
+}
+
+.el-steps {
+  &.large-icon {
+    $size: 50px;
+    .el-step__head,
+    .el-step__title {
+      text-align: center;
+      &.is-finish {
+        color: $--color-success;
+        border-color: $--color-success;
+      }
+      &.is-process {
+        color: $--color-primary;
+        border-color: $--color-primary;
+      }
+    }
+    .is-last-step {
+      .is-finish {
+        .el-step__line-inner {
+          border-width: 1px;
+          width: 100%;
+        }
+      }
+    }
+    .is-stoped {
+      .el-step__head {
+        color: $--color-danger;
+        border-color: $--color-danger;
+      }
+    }
+    .el-step__icon {
+      width: $size;
+      height: $size;
+      white-space: normal;
+    }
+    &.is-horizontal,
+    &.el-steps--horizontal {
+      .el-step__line {
+        display: inline-block!important;
+        top: $size / 2 - 2;
+      }
+    }
+    &.is-vertical,
+    &.el-steps--vertical {
+      .el-step__line {
+        left: $size / 2 - 2;
+      }
+    }
+  }
+}

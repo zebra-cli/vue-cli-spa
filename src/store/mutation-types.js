@@ -1,0 +1,5 @@
+export const UPDATE_TOKEN = 'UPDATE_TOKEN'
+
+export const UPDATE_AUTHORITY = 'UPDATE_AUTHORITY'
+
+export const PROXY_SELECT = 'PROXY_SELECT'

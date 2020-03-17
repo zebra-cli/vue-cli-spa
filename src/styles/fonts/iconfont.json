@@ -1,0 +1,23 @@
+{
+  "id": "1657903",
+  "name": "adms-headline",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-adms-",
+  "description": "头条广告",
+  "glyphs": [
+    {
+      "icon_id": "11389641",
+      "name": "暂无数据",
+      "font_class": "data-no",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "7040890",
+      "name": "提交成功",
+      "font_class": "correct",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    }
+  ]
+}
