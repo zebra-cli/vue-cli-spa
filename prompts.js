@@ -14,4 +14,14 @@ module.exports = [
     name: 'description',
     message: '请输入项目描述信息?',
   },
+  {
+    type: 'test_rul',
+    name: 'description',
+    message: '请输入测试服务器地址?',
+  },
+  {
+    type: 'mock_rul',
+    name: 'description',
+    message: '请输入 mock 服务地址?',
+  },
 ]
