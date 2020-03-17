@@ -1,4 +1,4 @@
-# adms-headline
+# vue-cli-spa
 
 ## Project setup
 ```
